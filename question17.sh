@@ -23,4 +23,5 @@ rm dir3/bar
 touch dir3/newfile2
 git rm dir1/dir2/foo dir3/bar
 git add dir1/dir2/foo_modified dir3/newfile2
+git mv dir3 dir1/
 git commit -m"Modify branch2"

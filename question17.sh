@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 git checkout -b branch1
@@ -12,13 +13,13 @@ git checkout branch1
 mv dir1/dir2/foo dir1/
 cd dir1
 rmdir dir2
-cd ..
-touch newfile1
-git add foo newfile1
+touch ./newfile1
+git add foo ./newfile1
 git rm dir2/foo
 git commit -m"Modify branch1"
 
 git checkout branch2
+cd ..
 mv dir1/dir2/foo dir1/dir2/foo_modified
 rm dir3/bar
 touch dir3/newfile2

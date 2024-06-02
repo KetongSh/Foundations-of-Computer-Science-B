@@ -19,7 +19,6 @@ git rm dir2/foo
 git commit -m"Modify branch1"
 
 git checkout branch2
-cd ..
 mv dir1/dir2/foo dir1/dir2/foo_modified
 rm dir3/bar
 touch dir3/newfile2

@@ -12,7 +12,8 @@ git checkout branch1
 mv dir1/dir2/foo dir1/
 cd dir1
 rmdir dir2
-git add foo
+touch newfile1
+git add foo newfile1
 git rm dir2/foo
 git commit -m"Modify branch1"
 
